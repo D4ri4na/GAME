@@ -22,6 +22,7 @@ namespace ahorcado
         public void Jugar()
         {
             Console.WriteLine("\nGAME START");
+            Console.WriteLine("\n Pista: Planetas");
             while (intentosRestantes > 0)
             {
                 
@@ -54,7 +55,7 @@ namespace ahorcado
                 {
                     
                     Console.WriteLine(palabraSecreta);
-                    Console.WriteLine("WINNER");
+                    Console.WriteLine("WINNER!!!");
                     break;
                 }
             }
